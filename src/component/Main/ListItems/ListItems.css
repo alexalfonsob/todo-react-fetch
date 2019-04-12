@@ -1,0 +1,40 @@
+ul {
+    cursor: pointer;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid silver;
+
+}
+
+li {
+    padding: 1em 2em;
+    height: 1.5em;
+    border-top: 1px solid silver;
+
+}
+
+i.fas fa-times {
+
+    margin: 7px;
+}
+
+span {
+    padding: 1em 2em;
+    height: 1.5em;
+    margin: -18px;
+    padding: 0;
+    margin-left: 24em;
+    display: block;
+    color: silver;
+    opacity: 0;
+    width: 10px;
+
+}
+
+li:hover span {
+
+    opacity: 1.0;
+    width: 10px;
+
+}
